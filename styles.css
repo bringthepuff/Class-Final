@@ -64,22 +64,24 @@ main {
 }
 
 .categories ul li {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex: 1;
     min-width: 120px;
     text-align: center;
 }
 
-.categories ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+.category-button {
     display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
-.categories ul li a:hover {
-    text-decoration: underline;
+.category-button:hover {
+    background-color: #0056b3;
 }
