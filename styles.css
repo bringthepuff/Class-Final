@@ -11,13 +11,12 @@ header {
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
 }
 
 .header-image {
-    width: 100%; 
+    width: 25%; 
     max-width: 600px; 
-    height: auto; 
+    height: 25%; 
     display: block; 
     margin: 0 auto; 
 }
