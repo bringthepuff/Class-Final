@@ -12,24 +12,21 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-}
-
-.header-image {
-    width: 25%; 
-    max-width: 100px; 
-    height: 25%; 
-    display: block; 
-    margin: 0 auto; 
+    position: relative; /* Ensure that the logo's positioning is relative to the header */
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    position: absolute; /* Move the logo out of the normal document flow */
+    top: 100px; /* Position it within the body, adjust as needed */
+    left: 20px;
 }
 
 .header-right {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .header-right a {
@@ -45,7 +42,7 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 140px 20px 20px 20px; /* Add top padding to accommodate the moved logo */
 }
 
 .deck-of-the-day {
@@ -93,4 +90,3 @@ main {
 .category-button:hover {
     background-color: #0056b3;
 }
-
